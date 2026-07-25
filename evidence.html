@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дәлелдер — Ғайып Ерен Қырық Шілтен</title>
+    <meta name="description" content="Тарихи және әдеби дәлелдер, эпостар, жырлар">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <div class="hero-ornament-frame">
+        <div class="lang-switcher">
+            <button class="active" onclick="setLang('kk')">ҚАЗ</button>
+            <button onclick="setLang('ru')">РУС</button>
+            <button onclick="setLang('en')">ENG</button>
+        </div>
+
+        <h1 data-lang="kk" class="active">ДӘЛЕЛДЕР МЕН<br>ДЕРЕККӨЗДЕР</h1>
+        <h1 data-lang="ru">ДОКАЗАТЕЛЬСТВА И<br>ИСТОЧНИКИ</h1>
+        <h1 data-lang="en">EVIDENCE AND<br>SOURCES</h1>
+
+        <p data-lang="kk" class="active subtitle">Тарихи, әдеби және рухани дереккөздер</p>
+        <p data-lang="ru" class="subtitle">Исторические, литературные и духовные источники</p>
+        <p data-lang="en" class="subtitle">Historical, literary, and spiritual sources</p>
+
+    </div>
+</div>
+
+<!-- NAV -->
+<nav class="nav">
+    <a href="index.html" data-lang="kk">Басты бет</a>
+    <a href="index.html" data-lang="ru">Главная</a>
+    <a href="index.html" data-lang="en">Home</a>
+    <a href="quran.html" data-lang="kk">Құран аяттары</a>
+    <a href="quran.html" data-lang="ru">Аяты Корана</a>
+    <a href="quran.html" data-lang="en">Quran Verses</a>
+    <a href="evidence.html" data-lang="kk" class="active">Дәлелдер</a>
+    <a href="evidence.html" data-lang="ru" class="active">Доказательства</a>
+    <a href="evidence.html" data-lang="en" class="active">Evidence</a>
+</nav>
+
+<div class="wrap">
+
+    <!-- ===== HISTORICAL SOURCES ===== -->
+    <div class="sec" id="history">
+        <h2 class="sec-title">
+            <span data-lang="kk" class="active">Тарихи дереккөздер</span>
+            <span data-lang="ru">Исторические источники</span>
+            <span data-lang="en">Historical Sources</span>
+        </h2>
+
+        <!-- Kazakh -->
+        <div data-lang="kk" class="active">
+            <div class="card">
+                <h3>Қазығұрт тауының тарихи маңызы</h3>
+                <p>Қазығұрт тауы — Түркістан облысындағы тарихи және рухани тұрғыдан маңызды нысан. Бұл тау түркі халықтарының дәстүрлі дүниетанымында ерекше орын алады. Ғасырлар бойы халық арасында бұл жердің қасиеттілігі туралы аңыздар сақталған.</p>
+                <p>Қазығұрт өңірі көптеген тарихи оқиғалардың куәсі болған. Бұл жерде түркі, қазақ және басқа да халықтардың мәдени мұралары сақталған. Таудың ерекше геологиялық құрылымы — тесіктері көп, түрлі формадағы тастар — халық арасында «Ғайып Ерен Қырық Шілтен» деп аталатын киелі орын ретінде танылған.</p>
+            </div>
+            <div class="card">
+                <h3>Ғайып Ерен туралы түсінік</h3>
+                <p>«Ғайып Ерен» — түркі-ислам дәстүріндегі ерекше ұғым. Құран Кәрімде ғайып (көрінбейтін, жасырын) туралы көптеген аяттар бар. Ғайып Ерендер — Алланың құпияларын білетін, халыққа жәрдем беретін киелі тұлғалар. Қазақ халқы бұл тұлғаларды әулие, пір және қорғаушы ретінде құрметтеген.</p>
+                <p>«Қырық Шілтен» деген атау — «қырық» (сауыт киім, қырық) және «шілтен» (кеме, тұлға) сөздерінен тұрады. Халық арасында бұл — қырық қайратты батырдың рухы сақталған киелі орын деп сенеді.</p>
+            </div>
+        </div>
+
+        <!-- Russian -->
+        <div data-lang="ru">
+            <div class="card">
+                <h3>Историческое значение горы Казыгурт</h3>
+                <p>Гора Казыгурт — исторически и духовенно значимый объект в Туркестанской области. Эта гора занимает особое место в традиционном мировоззрении тюркских народов. На протяжении веков среди народа сохранились легенды о святости этого места.</p>
+                <p>Регион Казыгурт был свидетелем многих исторических событий. Здесь сохранились культурные наследия тюркского, казахского и других народов. Особая геологическая структура горы — камни с множеством отверстий и различных форм — известна среди народа как священное место «Гаып Ерен Қырық Шілтен».</p>
+            </div>
+            <div class="card">
+                <h3>Понятие Гаып Ерен</h3>
+                <p>«Гаып Ерен» — особое понятие в тюрко-исламской традиции. В Коране есть множество аятов о гаыпе (невидимом, сокрытом). Гаып Ерены — это святые существа, которые знают тайны Аллаха и помогают людям. Казахский народ уважал этих существ как святых, пиров и защитников.</p>
+                <p>Название «Қырық Шілтен» состоит из слов «қырык» (сорок) и «шілтен» (корабль, существо). В народе верят, что это священное место, где сохраняются духи сорока могущественных батыров.</p>
+            </div>
+        </div>
+
+        <!-- English -->
+        <div data-lang="en">
+            <div class="card">
+                <h3>Historical Significance of Kazygurt Mountain</h3>
+                <p>Kazygurt Mountain is a historically and spiritually significant site in the Turkestan Region. This mountain holds a special place in the traditional worldview of Turkic peoples. For centuries, legends about the sanctity of this place have been preserved among the people.</p>
+                <p>The Kazygurt region has been witness to many historical events. Cultural heritage of Turkic, Kazakh, and other peoples is preserved here. The mountain's unique geological structure — rocks with numerous holes and various forms — is known among the people as the sacred site of "Gayyip Eren Forty Shilten."</p>
+            </div>
+            <div class="card">
+                <h3>The Concept of Gayyip Eren</h3>
+                <p>"Gayyip Eren" is a special concept in the Turkic-Islamic tradition. The Quran contains numerous verses about the unseen (gayyip). Gayyip Erens are holy beings who know Allah's secrets and help people. The Kazakh people revered these beings as saints, pirs, and protectors.</p>
+                <p>The name "Qyryq Shilten" consists of the words "qyryq" (forty) and "shilten" (vessel, being). People believe this is a sacred place where the spirits of forty mighty heroes are preserved.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== EPICS / LITERARY SOURCES ===== -->
+    <div class="sec" id="epics">
+        <h2 class="sec-title">
+            <span data-lang="kk" class="active">Эпостар мен жырлар</span>
+            <span data-lang="ru">Эпосы и поэмы</span>
+            <span data-lang="en">Epics and Poems</span>
+        </h2>
+
+        <p data-lang="kk" class="active" style="color: var(--text-dim); margin-bottom: 24px;">Қазақ халықтық эпостарынан Қырық Шілтен туралы үзінділер</p>
+        <p data-lang="ru" style="color: var(--text-dim); margin-bottom: 24px;">Отрывки о Қырық Шілтен из казахских народных эпосов</p>
+        <p data-lang="en" style="color: var(--text-dim); margin-bottom: 24px;">Excerpts about Forty Shilten from Kazakh folk epics</p>
+
+        <!-- Kazakh epics -->
+        <div data-lang="kk" class="active">
+            <div class="epic-card">
+                <h4>«Қобыланды батыр» жыры</h4>
+                <p>Қобыланды батыр — қазақ халқының ең танымал эпостарының бірі. Бұл жырда батырдың қиындықтары мен жеңістері, оның Қырық Шілтен орнына келуі және рухани жәрдем алуы туралы айтылады. Халық арасында Қобыландының осы жерде дәрет алып, батырлық күшін қайта тапқандығы туралы аңыздар сақталған.</p>
+                <p class="source">Дереккөз: «Қобыланды батыр» халық жыры, XVIII ғасырдан бастап жазба түрінде сақталған</p>
+            </div>
+
+            <div class="epic-card">
+                <h4>«Қамбар батыр» жыры</h4>
+                <p>Қамбар батыр — түркі-қазақ эпосының кейіпкері. Бұл жырда Қамбардың Қырық Шілтен орнына тәу етіп, рухани күш алуы баяндалады. Халық арасында Қамбардың осы жерде жүріп өткені және оның рухының осы белгілерде қалғандығы туралы сенім бар.</p>
+                <p class="source">Дереккөз: «Қамбар батыр» халық жыры, XVII-XVIII ғасырлар</p>
+            </div>
+
+            <div class="epic-card">
+                <h4>«Қарасай–Қази» жыры</h4>
+                <p>Қарасай батыр мен Қази — қазақ халқының батырлық дәстүрінде ерекше орын алатын тұлғалар. Бұл жырда олардың Қырық Шілтен орнымен байланысты оқиғалары баяндалады. Халық арасында бұл батырлардың осы жерде ғайыптан жәрдем алғандығы туралы аңыздар бар.</p>
+                <p class="source">Дереккөз: «Қарасай–Қази» халық жыры, XVIII-XIX ғасырлар</p>
+            </div>
+
+            <div class="epic-card">
+                <h4>«Ер Тарғын» жыры</h4>
+                <p>Ер Тарғын — түркі-қазақ эпосының батыры. Бұл жырда Ер Тарғынның Қырық Шілтен орнындағы оқиғалары, оның рухани тазаруы және жаңа күш алуы туралы баяндалады. Халық арасында бұл жердің қасиеттілігін дәлелдейтін аңыздардың бірі — Ер Тарғынның осы жерде түнеп шыққандығы.</p>
+                <p class="source">Дереккөз: «Ер Тарғын» халық жыры, XVIII ғасыр</p>
+            </div>
+
+            <div class="epic-card">
+                <h4>«Шора батыр» жыры</h4>
+                <p>Шора батыр — қазақ халқының батырлық эпосының кейіпкері. Бұл жырда Шораның Қырық Шілтен орнына тәу етіп, дұға оқып, рухани жәрдем алғандығы баяндалады. Халық арасында Шораның осы жерде тазарып, жаңа өмір бастағандығы туралы аңыздар сақталған.</p>
+                <p class="source">Дереккөз: «Шора батыр» халық жыры, XIX ғасыр</p>
+            </div>
+
+            <div class="epic-card">
+                <h4>«Орақ–Мамай» жыры</h4>
+                <p>Орақ пен Мамай — қазақ халқының батырлық дәстүрінде танымал тұлғалар. Бұл жырда олардың Қырық Шілтен орнымен байланысты оқиғалары, рухани жәрдем алулары және халыққа көмектесулері баяндалады.</p>
+                <p class="source">Дереккөз: «Орақ–Мамай» халық жыры, XVIII-XIX ғасырлар</p>
+            </div>
+
+            <div class="epic-card">
+                <h4>«Көрұғлы» жыры</h4>
+                <p>Көрұғлы — түркі халықтарының ортақ эпосының кейіпкері. Бұл жырда Көрұғлының Қырық Шілтен орнына келуі және рухани күш алуы туралы айтылады. Түркі халықтарының ортақ мәдени мұрасы ретінде бұл жыр Қырық Шілтен орнының маңызын арттырады.</p>
+                <p class="source">Дереккөз: «Көрұғлы» түркі халық эпосы, XV-XVI ғасырлар</p>
+            </div>
+        </div>
+
+        <!-- Russian epics -->
+        <div data-lang="ru">
+            <div class="epic-card">
+                <h4>Эпос «Кобыланды батыр»</h4>
+                <p>Кобыланды батыр — один из самых известных эпосов казахского народа. В этой поэме рассказывается о трудностях и победах батыра, о его посещении места Қырық Шілтен и получении духовной помощи. Среди народа сохранились легенды о том, как Кобыланды омывался здесь и обретал силу батыра.</p>
+                <p class="source">Источник: Народная поэма «Кобыланды батыр», сохранившаяся в письменной форме с XVIII века</p>
+            </div>
+            <div class="epic-card">
+                <h4>Эпос «Қамбар батыр»</h4>
+                <p>Қамбар батыр — герой тюрко-казахского эпоса. В этой поэме рассказывается о том, как Камбар посещал место Қырық Шілтен для поклонения и получения духовной силы. Среди народа есть верование, что Камбар проходил через это место и его дух остался среди этих знаков.</p>
+                <p class="source">Источник: Народная поэма «Қамбар батыр», XVII-XVIII века</p>
+            </div>
+            <div class="epic-card">
+                <h4>Эпос «Қарасай–Қази»</h4>
+                <p>Қарасай батыр и Қази — фигуры, занимающие особое место в батырской традиции казахского народа. В этой поэме рассказывается об их событиях, связанных с местом Қырық Шілтен. Среди народа ходят легенды о том, что эти батыры получали помощь из сокрытия на этом месте.</p>
+                <p class="source">Источник: Народная поэма «Қарасай–Қази», XVIII-XIX века</p>
+            </div>
+            <div class="epic-card">
+                <h4>Эпос «Ер Тарғын»</h4>
+                <p>Ер Тарғын — герой тюрко-казахского эпоса. В этой поэме рассказывается о событиях Ер Тарғына на месте Қырық Шілтен, его духовном очищении и обретении новой силы. Одна из легенд, подтверждающих святость этого места — Ер Тарғын провёл здесь ночь.</p>
+                <p class="source">Источник: Народная поэма «Ер Тарғын», XVIII век</p>
+            </div>
+            <div class="epic-card">
+                <h4>Эпос «Шора батыр»</h4>
+                <p>Шора батыр — герой батырского эпоса казахского народа. В этой поэме рассказывается о том, как Шора посещал место Қырық Шілтен для поклонения, читал молитвы и получал духовную помощь. Среди народа сохранились легенды о том, как Шора очищался здесь и начинал новую жизнь.</p>
+                <p class="source">Источник: Народная поэма «Шора батыр», XIX век</p>
+            </div>
+            <div class="epic-card">
+                <h4>Эпос «Орақ–Мамай»</h4>
+                <p>Орак и Мамай — известные фигуры в батырской традиции казахского народа. В этой поэме рассказывается об их событиях, связанных с местом Қырық Шілтен, о получении духовной помощи и помощи народу.</p>
+                <p class="source">Источник: Народная поэма «Орақ–Мамай», XVIII-XIX века</p>
+            </div>
+            <div class="epic-card">
+                <h4>Эпос «Көрұғлы»</h4>
+                <p>Көрұғлы — герой общетюркского эпоса. В этой поэме рассказывается о посещении Көрұғлы места Қырық Шілтен и получении духовной силы. Как общекультурное наследие тюркских народов, эта поэма подчёркивает значение места Қырық Шілтен.</p>
+                <p class="source">Источник: Тюркский народный эпос «Көрұғлы», XV-XVI века</p>
+            </div>
+        </div>
+
+        <!-- English epics -->
+        <div data-lang="en">
+            <div class="epic-card">
+                <h4>Epic "Koblandy Batyr"</h4>
+                <p>Koblandy Batyr is one of the most famous epics of the Kazakh people. This poem tells of the hero's hardships and victories, his visit to the Forty Shilten site, and receiving spiritual assistance. Legends have been preserved about how Koblandy performed ablution here and regained his hero's strength.</p>
+                <p class="source">Source: Folk poem "Koblandy Batyr," preserved in written form since the 18th century</p>
+            </div>
+            <div class="epic-card">
+                <h4>Epic "Qambar Batyr"</h4>
+                <p>Qambar Batyr is a hero of the Turkic-Kazakh epic. This poem tells how Qambar visited the Forty Shilten site for worship and to gain spiritual strength. Among the people there is a belief that Qambar passed through this place and his spirit remained among these signs.</p>
+                <p class="source">Source: Folk poem "Qambar Batyr," 17th-18th centuries</p>
+            </div>
+            <div class="epic-card">
+                <h4>Epic "Qarasy-Qazi"</h4>
+                <p>Qarasy Batyr and Qazi are figures holding a special place in the batyr tradition of the Kazakh people. This poem tells of their events connected with the Forty Shilten site. Legends circulate about how these heroes received help from the unseen at this place.</p>
+                <p class="source">Source: Folk poem "Qarasy-Qazi," 18th-19th centuries</p>
+            </div>
+            <div class="epic-card">
+                <h4>Epic "Er Targyn"</h4>
+                <p>Er Targyn is a hero of the Turkic-Kazakh epic. This poem tells of Er Targyn's events at the Forty Shilten site, his spiritual purification and gaining new strength. One of the legends confirming the sanctity of this place is that Er Targyn spent the night here.</p>
+                <p class="source">Source: Folk poem "Er Targyn," 18th century</p>
+            </div>
+            <div class="epic-card">
+                <h4>Epic "Shora Batyr"</h4>
+                <p>Shora Batyr is a hero of the Kazakh batyr epic. This poem tells how Shora visited the Forty Shilten site for worship, read prayers, and received spiritual assistance. Legends have been preserved about how Shora purified himself here and began a new life.</p>
+                <p class="source">Source: Folk poem "Shora Batyr," 19th century</p>
+            </div>
+            <div class="epic-card">
+                <h4>Epic "Oraq-Mamai"</h4>
+                <p>Oraq and Mamai are well-known figures in the batyr tradition of the Kazakh people. This poem tells of their events connected with the Forty Shilten site, receiving spiritual help, and aiding the people.</p>
+                <p class="source">Source: Folk poem "Oraq-Mamai," 18th-19th centuries</p>
+            </div>
+            <div class="epic-card">
+                <h4>Epic "Koroghly"</h4>
+                <p>Koroghly is a hero of the common Turkic epic. This poem tells of Koroghly's visit to the Forty Shilten site and gaining spiritual strength. As a shared cultural heritage of Turkic peoples, this poem emphasizes the significance of the Forty Shilten site.</p>
+                <p class="source">Source: Turkic folk epic "Koroghly," 15th-16th centuries</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== MAP ===== -->
+    <div class="sec" id="map">
+        <h2 class="sec-title">
+            <span data-lang="kk" class="active">Геолокация картасы</span>
+            <span data-lang="ru">Карта геолокации</span>
+            <span data-lang="en">Geolocation Map</span>
+        </h2>
+
+        <div class="info-grid" style="margin-bottom: 24px;">
+            <div class="info-card">
+                <div class="icon">📍</div>
+                <h4 data-lang="kk" class="active">Координаталар</h4>
+                <h4 data-lang="ru">Координаты</h4>
+                <h4 data-lang="en">Coordinates</h4>
+                <div class="coord">42.1398439° N, 69.7275758° E</div>
+            </div>
+            <div class="info-card">
+                <div class="icon">🗺️</div>
+                <h4 data-lang="kk" class="active">Google Maps</h4>
+                <h4 data-lang="ru">Google Maps</h4>
+                <h4 data-lang="en">Google Maps</h4>
+                <a href="https://www.google.com/maps/dir/?api=1&destination=42.1398439,69.7275758" target="_blank" rel="noopener noreferrer" class="map-btn" data-lang="kk" style="display:inline-flex">
+                    Бағыт алу
+                </a>
+                <a href="https://www.google.com/maps/dir/?api=1&destination=42.1398439,69.7275758" target="_blank" rel="noopener noreferrer" class="map-btn" data-lang="ru" style="display:inline-flex">
+                    Маршрут
+                </a>
+                <a href="https://www.google.com/maps/dir/?api=1&destination=42.1398439,69.7275758" target="_blank" rel="noopener noreferrer" class="map-btn" data-lang="en" style="display:inline-flex">
+                    Get Directions
+                </a>
+            </div>
+        </div>
+
+        <div class="map-container">
+            <div id="leaflet-map" style="width:100%; height:400px;"></div>
+        </div>
+    </div>
+
+    <!-- ===== PHOTO GALLERY FROM EVIDENCE ===== -->
+    <div class="sec" id="photos">
+        <h2 class="sec-title">
+            <span data-lang="kk" class="active">Орынның фотосуреттері</span>
+            <span data-lang="ru">Фотографии места</span>
+            <span data-lang="en">Photos of the Site</span>
+        </h2>
+
+        <div class="img-grid">
+            <div class="img-card">
+                <img src="images/XXXL.webp" alt="Ғайып Ерен" loading="lazy">
+                <div class="cap" data-lang="kk" class="active">Ғайып Ереннің табиғи белгілері</div>
+                <div class="cap" data-lang="ru">Природные знаки Гаып Ерен</div>
+                <div class="cap" data-lang="en">Natural signs of Gayyip Eren</div>
+            </div>
+            <div class="img-card">
+                <img src="images/ф.webp" alt="Қол тәріздес" loading="lazy">
+                <div class="cap" data-lang="kk" class="active">Қол тәріздес белгі</div>
+                <div class="cap" data-lang="ru">Знак в виде руки</div>
+                <div class="cap" data-lang="en">Hand-shaped sign</div>
+            </div>
+            <div class="img-card">
+                <img src="images/сы.webp" alt="Тау" loading="lazy">
+                <div class="cap" data-lang="kk" class="active">Тау бөктеріндегі белгілер</div>
+                <div class="cap" data-lang="ru">Знаки на склоне горы</div>
+                <div class="cap" data-lang="en">Signs on the mountainside</div>
+            </div>
+            <div class="img-card">
+                <img src="images/вв.webp" alt="Жақын" loading="lazy">
+                <div class="cap" data-lang="kk" class="active">Белгінің жақын көрінісі</div>
+                <div class="cap" data-lang="ru">Вид знака крупным планом</div>
+                <div class="cap" data-lang="en">Close-up view of the sign</div>
+            </div>
+            <div class="img-card">
+                <img src="images/п.webp" alt="Үңгір" loading="lazy">
+                <div class="cap" data-lang="kk" class="active">Үңгір тәріздес белгі</div>
+                <div class="cap" data-lang="ru">Знак в виде пещеры</div>
+                <div class="cap" data-lang="en">Cave-like sign</div>
+            </div>
+            <div class="img-card">
+                <img src="images/b98372c17a4ccaf5564633e5b5d7c2c6.jpg" alt="Бұлақ" loading="lazy">
+                <div class="cap" data-lang="kk" class="active">Бұлақтан су алу</div>
+                <div class="cap" data-lang="ru">Набор воды из родника</div>
+                <div class="cap" data-lang="en">Drawing water from the spring</div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <p data-lang="kk" class="active">Ғайып Ерен Қырық Шілтен — Қазығұрт өңіріндегі киелі орын</p>
+    <p data-lang="ru">Гаып Ерен Қырық Шілтен — священное место в регионе Казыгурт</p>
+    <p data-lang="en">Gayyip Eren Forty Shilten — Sacred site in the Kazygurt region</p>
+    <div class="footer-contacts">
+        <a href="tel:+77719999312">+7 771 999 93 12</a>
+        <a href="tel:+77025216884">+7 702 521 68 84</a>
+    </div>
+    <p data-lang="kk" class="active" style="margin-top: 14px;">Киелі мұраны құрметтейік. Табиғатты таза ұстайық.</p>
+    <p data-lang="ru" style="margin-top: 14px;">Давайте уважать священное наследие. Сохраняйте природу в чистоте.</p>
+    <p data-lang="en" style="margin-top: 14px;">Let us respect the sacred heritage. Keep nature clean.</p>
+    <p style="margin-top: 10px; font-size: 0.75rem;">© 2024 Ғайып Ерен Қырық Шілтен</p>
+</div>
+
+<script>
+// ===== LANGUAGE SWITCHER =====
+let currentLang = 'kk';
+
+function setLang(lang) {
+    currentLang = lang;
+    document.querySelectorAll('.lang-switcher button').forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+
+    document.querySelectorAll('[data-lang]').forEach(el => {
+        el.classList.remove('active');
+        if (el.getAttribute('data-lang') === lang) {
+            el.classList.add('active');
+            if (el.tagName === 'A' || el.tagName === 'SPAN') el.style.display = '';
+        } else {
+            if (el.tagName === 'A' || el.tagName === 'SPAN') el.style.display = 'none';
+        }
+    });
+
+    document.querySelectorAll('.nav a').forEach(a => {
+        a.classList.remove('active');
+        if (a.getAttribute('data-lang') === lang) {
+            a.classList.add('active');
+            a.style.display = 'inline-flex';
+        } else {
+            a.style.display = 'none';
+        }
+    });
+
+    document.documentElement.lang = lang;
+}
+
+// ===== LEAFLET MAP =====
+document.addEventListener('DOMContentLoaded', function() {
+    var map = L.map('leaflet-map').setView([42.1398439, 69.7275758], 14);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap',
+        maxZoom: 18
+    }).addTo(map);
+
+    // Custom marker icon
+    var goldIcon = L.divIcon({
+        className: 'custom-marker',
+        html: '<div style="background:#c8a84e;width:24px;height:24px;border-radius:50%;border:3px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,0.4);display:flex;align-items:center;justify-content:center;"><div style="background:#fff;width:8px;height:8px;border-radius:50%;"></div></div>',
+        iconSize: [24, 24],
+        iconAnchor: [12, 12]
+    });
+
+    L.marker([42.1398439, 69.7275758], {icon: goldIcon}).addTo(map)
+        .bindPopup('<b>Ғайып Ерен Қырық Шілтен</b><br>42.1398439° N, 69.7275758° E');
+});
+
+// Initialize nav on page load
+document.querySelectorAll('.nav a').forEach(a => {
+    if (a.getAttribute('data-lang') === 'kk') {
+        a.style.display = 'inline-flex';
+    } else {
+        a.style.display = 'none';
+    }
+});
+</script>
+
+</body>
+</html>
