@@ -528,6 +528,17 @@ footer svg{width:26px;height:26px;color:oklch(70% 0.09 50);margin-bottom:18px}
   .foot-extra{grid-template-columns:1fr}
 }
 
+/* Автор қолтаңбасы */
+.intro-author{
+  margin-top:26px;padding-top:18px;border-top:1px solid var(--line-2);
+  font-family:Georgia,'Times New Roman',serif;font-style:italic;
+  font-size:1.02rem;color:var(--ink);text-align:right;
+}
+.intro-author::before{content:'— ';color:var(--clay)}
+@media (max-width:640px){
+  .intro-author{text-align:left;font-size:.95rem}
+}
+
 /* ============ MOBILE BOTTOM NAV ============ */
 .mobnav{
   position:fixed;left:0;right:0;bottom:0;z-index:80;
@@ -800,6 +811,7 @@ T.kk = {
     introBigEyebrow:'Кіріспе',
     introBigTitle:'Ғайып Ерен Қырық Шілтен',
     introBigText:'Ғайып Ерен Қырық Шілтен — адамзаттың рухани тазалық орталығы, киелі Қазғұрт тауы адамзаттың өркениетінің белгісі, барлық тіршіліктің басталуы, жер кіндігі екендігін түсіндіріп, еларалық достықты нығайту. Ата-бабаларымыздың Ұлы жібек жолымен керуен жолдары өткендігін ескере отырып, барлық ұлттар мен ұлыстардың діни айырмашылығына қарамай ұлтаралық татулықты, біліктілікті нығайту, адамзаттың рухани тазалығына қол жеткізу. Киелі қасиетті жерлерді қамқорлыққа ала отырып, тілімізді, ұлттық салт-дәстүрімізді, әдет-ғұрпымызды ұмытпауға, жастарды түрлі зиянкестерден аулақ болуына, еліміздің тарихы мен рухани құндылықтарын қадірлеп қастерлеуге тәрбиелеу. Төл тарихымызбен салт-дәстүрімізді үйрене білу, оны жаңарту — басты міндетіміз. Сонау ескі қадимді заманнан түпкі тегі мұқым түркі халықтарының, яғни бабаларымыздың артық әзіз тұтқан ақ адал пейілдерімен тәубе етіп, ғибадат жасап келген орындарының бірі — Ғайып Ерен Қырық Шілтен бүкіл әулиелердің мекені болып саналады. Құдіретті күшке, тәңірі бір, Аллаға табынатын, әруақты сыйлайтын, ата-бабалар салтына жүгінетін, жан тәнімен ар тазалығын меңгеретін, қазақ елін, жерін жанындай сүйетін, ол үшін жанын беретін ер азаматтарға, жастарға туған елінің қасиеттілігін кейінгі ұрпаққа өнеге етіп көрсету үшін Ғайып Ерен Қырық Шілтеннен керуен жүргізуін қолға алдық. Енді қазақтар үшін, қазақстандықтар үшін, осы еліміздің жаны ашық патриоттары үшін алда үлкен абыройлы, күрделі міндет тұр. Ол — сан мыңдаған жылдар бойы ата-бабаларымыз аңыз етіп келе жатқан, адамзаттың, бүкіл тіршіліктің белгісі Қазығұртты, Ғайып Ерен Қырық Шілтен қадір-қасиетін бүкіл тіршілікке паш ету. Осы әулие-әмбиелерді, тарихи қасиетті орындарды қастерлеп, құрметтеу арқылы жастарымызды мәдениеттілікке, білімділікке, инабаттылыққа тәрбиелеп отырып, Қазақстанымызды алдыңғы қатарлы өркениетті ел қатарына қосуға үлес қосу.',
+    introBigAuthor:'Ғайып Ерен Қырық Шілтен қайырымдылық қоры төрағасы: Нақыпбаев Махмуд Нурмаханұлы',
     figCap:'Ғайып Ерен Қырық Шілтен киелі орнындағы көрініс',
     eyebrow2:'Құран', title2:'Құранда ғайып жайлы бірнеше жерде айтылған',
     points:[
@@ -1054,6 +1066,7 @@ T.ru = {
     introBigEyebrow:'Введение',
     introBigTitle:'Ғайып Ерен Қырық Шілтен',
     introBigText:'Ғайып Ерен Қырық Шілтен — центр духовной чистоты человечества; священная гора Казгурт — знак цивилизации человечества, начало всего живого, пуп земли; мы объясняем это, чтобы укреплять дружбу между народами. Помня, что караванные пути наших предков проходили по Великому шёлковому пути, мы, несмотря на религиозные различия всех народов, укрепляем межнациональное согласие и просвещённость, стремимся к духовной чистоте человечества. Взяв священные места под опеку, мы воспитываем молодёжь не забывать язык, национальные традиции и обычаи, уберегаться от различных пороков, чтить и беречь историю и духовные ценности страны. Изучать нашу подлинную историю и традиции, обновлять их — наша главная задача. С глубокой древности одно из мест, где все тюркские народы, то есть наши предки, с чистой душой совершали покаяние и поклонение, — Ғайып Ерен Қырық Шілтен считается обителью всех святых. Для мужей и юношей, которые почитают великую силу, верят в единого Тенгри и Аллаха, чтят духи предков, следуют обычаям дедов, всей душой стремятся к чистоте, любят казахскую землю как родную и готовы отдать за неё жизнь, — чтобы показать святость родной страны как пример грядущим поколениям, мы начали караван Ғайып Ерен Қырық Шілтен. Теперь перед казахами, казахстанцами и искренними патриотами страны стоит великая, почётная и сложная задача: донести до всего живого величие Казгурта и святость Ғайып Ерен Қырық Шілтен, о которых наши предки слагали легенды тысячелетиями. Почитая этих святых и исторические священные места, воспитывая молодёжь в духе культуры, знаний и благонравия, мы вносим вклад в то, чтобы Казахстан вошёл в число передовых цивилизованных стран.',
+    introBigAuthor:'Председатель благотворительного фонда «Ғайып Ерен Қырық Шілтен»: Нақыпбаев Махмуд Нурмаханұлы',
     figCap:'Вид у священного места Ғайып Ерен Қырық Шілтен',
     eyebrow2:'Коран', title2:'В Коране о сокрытом говорится в нескольких местах',
     points:[
@@ -1307,6 +1320,7 @@ T.en = {
     introBigEyebrow:'Introduction',
     introBigTitle:'Ghayyp Eren Qyryq Shilten',
     introBigText:'Ghayyp Eren Qyryq Shilten is the centre of humanity’s spiritual purity; the sacred Qazygurt mountain is a sign of human civilisation, the beginning of all life, the navel of the earth — we explain this to strengthen friendship between nations. Bearing in mind that the caravan routes of our ancestors passed along the Great Silk Road, and regardless of the religious differences of all nations and peoples, we strengthen interethnic harmony and enlightenment, striving to attain humanity’s spiritual purity. Taking sacred places under our care, we raise the young not to forget our language, national traditions and customs, to stay away from various harms, and to cherish and revere our country’s history and spiritual values. To study our true history and traditions and to renew them is our main task. Since ancient times, one of the places where the entire Turkic peoples — our ancestors — performed repentance and worship with pure intentions, Ghayyp Eren Qyryq Shilten is considered the abode of all saints. For the men and youth who revere divine power, believe in the one Tengri and Allah, honour the spirits of ancestors, follow the ways of the forefathers, master spiritual purity with all their soul, love the Kazakh land like their own life and give their life for it — to show the sacredness of the motherland as an example to future generations, we launched the caravan of Ghayyp Eren Qyryq Shilten. Now, for Kazakhs, for Kazakhstanis, for the true patriots of this country, there lies a great, honourable and complex task: to proclaim to all living beings the glory of Qazygurt and the sanctity of Ghayyp Eren Qyryq Shilten, which our ancestors have passed down through legends for thousands of years. By honouring these saints and historic sacred places, and by raising our youth in culture, knowledge and virtue, we contribute to making Kazakhstan one of the leading civilised nations.',
+    introBigAuthor:'Chairman of the Ghayyp Eren Qyryq Shilten charitable foundation: Naqypbayev Makhmud Nurkhanuly',
     figCap:'A view at the Ghayyp Eren Qyryq Shilten sacred site',
     eyebrow2:"Qur'an", title2:"The Qur'an speaks of the unseen in several places",
     points:[
@@ -1569,7 +1583,8 @@ function renderHome(L){
   /* big intro — «Ұғым» бөлімінің үстінде */
   s += '<section class="band"><div class="shell">'+
        '<p class="eyebrow">'+h.introBigEyebrow+'</p><h2 class="h2">'+h.introBigTitle+'</h2>'+
-       '<div class="prose" style="max-width:78ch"><p>'+h.introBigText+'</p></div>'+
+       '<div class="prose" style="max-width:78ch"><p>'+h.introBigText+'</p>'+
+       '<p class="intro-author">'+h.introBigAuthor+'</p>'+
        '</div></section>';
 
   /* concept */
