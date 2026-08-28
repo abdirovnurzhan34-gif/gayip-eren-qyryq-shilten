@@ -1,8 +1,8 @@
-/* ҒЕҚШ — Service Worker v5 — барлық ескі кэшті жояды, әрқашан жаңа файл */
-const CACHE = 'geqsh-v5';
+/* ҒЕҚШ — Service Worker v6 — CSS/JS бөлек файлдар, ескі кэшті тазалайды */
+const CACHE = 'geqsh-v9';
 
 self.addEventListener('install', e => {
-  /* ЕСКІ КЭШТЕРДІ БАРЛЫҒЫН ЖОЮ (geqsh-v1...v4 және басқалар) */
+  /* ЕСКІ КЭШТЕРДІ БАРЛЫҒЫН ЖОЮ (geqsh-v9...v4 және басқалар) */
   e.waitUntil(
     caches.keys().then(keys =>
       Promise.all(keys.map(k => caches.delete(k)))

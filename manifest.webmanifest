@@ -3,12 +3,17 @@
   "short_name": "ҒЕҚШ",
   "description": "Ғайып Ерен Қырық Шілтен — Қазақтың рухани мұрасы. Құран, хадис, сопылық дәстүр, фотогалерея және карта.",
   "lang": "kk",
+  "dir": "ltr",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "orientation": "portrait",
+  "orientation": "any",
   "background_color": "#faf7f0",
   "theme_color": "#5c3e30",
+  "categories": [
+    "education",
+    "lifestyle"
+  ],
   "icons": [
     {
       "src": "icon-192.png",
@@ -21,6 +26,18 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }

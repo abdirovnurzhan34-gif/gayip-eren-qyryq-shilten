@@ -1,29 +1,34 @@
-# ҒЕҚШ — Ғайып Ерен Қырық Шілтен (мобильді нұсқа)
+# ҒЕҚШ — Ғайып Ерен Қырық Шілтен
 
-Қазақтың рухани мұрасына арналған сайттың мобильді нұсқасы.
+Қазақтың рухани мұрасына арналған сайт (мобильді + компьютер).
 
 ## Мүмкіндіктер
-- 📱 Мобильді дизайн: төменгі навигация жолағы, үлкен батырмалар
-- ⚡ PWA: телефонға қосымша ретінде орнатуға болады (offline режим)
+- 📱 **Мобильді нұсқа**: төменгі навигация, үлкен батырмалар, safe-area (iPhone), PWA
+- 💻 Компьютерлік нұсқа: жоғарғы мәзір, кең макет
+- 🖼️ Фотогалерея + lightbox (swipe)
+- ⬆️ «Жоғары» батырмасы (телефон)
+- ⚡ PWA: телефонға қосымша ретінде орнату (offline)
 - 🌐 Үш тіл: қазақша, орысша, ағылшынша
-- 🖼️ Фотогалерея
-- 🗺️ Карта (OpenStreetMap)
-- 📞 Байланыс: +7 771 999 9312 (тел + WhatsApp)
+- 🗺️ Карта (Google / Яндекс)
+- 📞 +7 771 999 9312 (тел + WhatsApp)
 
-## GitHub Pages-ке шығару
-1. Бұл қалтаны GitHub репозиторийіне жүктеңіз
-2. Repo Settings → Pages → Source: **main** branch, root
-3. Сайт мына мекенжайда ашылады: `https://SENIN-USERNAME.github.io/REPO-ATY/`
+## Файлдар
+```
+index.html           — HTML
+style.css            — стильдер (мобильді layout қоса)
+app.js               — мәтіндер, рендер, навигация, lightbox
+sw.js                — service worker
+manifest.webmanifest — PWA
+img/                 — суреттер
+```
 
-## Жергілікті тексеру
+## GitHub Pages
+Репозиторий: `abdirovnurzhan34-gif/gayip-eren-qyryq-shilten`  
+Сайт: https://abdirovnurzhan34-gif.github.io/gayip-eren-qyryq-shilten/
+
+Settings → Pages → Source: **main** / root
+
+## Жергілікті іске қосу
 ```bash
-cd ҒЕҚШ-mobile
-python3 -m http.server 8081
+python3 -m http.server 8080
 ```
-
-## WhatsApp превьюсы (маңызды!)
-`index.html` ішіндегі `USERNAME` және `REPO` деген орындарды өз GitHub атыңмен және репозиторий атымен алмастыр:
-```
-sed -i 's/abdirovnurzhan34-gif/geqsh/SENIN-abdirovnurzhan34-gif/geqsh-ATY/g' index.html
-```
-Содан кейін сілтемені WhatsApp-қа жібергенде суреті бар әдемі карточка көрінеді.
