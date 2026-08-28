@@ -1299,3 +1299,16 @@ if ('serviceWorker' in navigator) {
     }, { passive: true });
   }
 })();
+
+/* Mark mobile layout for CSS/JS hooks */
+(function(){
+  function syncMobileClass(){
+    const m = window.matchMedia('(max-width:640px)').matches;
+    document.documentElement.classList.toggle('geqsh-mobile', m);
+    document.body.classList.toggle('geqsh-mobile', m);
+  }
+  syncMobileClass();
+  window.addEventListener('resize', syncMobileClass, { passive:true });
+  window.addEventListener('orientationchange', syncMobileClass);
+})();
+
