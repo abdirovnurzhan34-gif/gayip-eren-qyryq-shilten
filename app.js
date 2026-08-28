@@ -128,7 +128,7 @@ T.kk = {
     subErenTitle:'Ерен сөзінің мағынасы',
     subErenText:'Үлкен, елге ерекше қызмет еткен, ізгі әрі рухани дәрежесі жоғары тұлға туралы түсінік.',
     subShiltenTitle:'Қырық Шілтен сөзінің мағынасы',
-    subShiltenText:'Алланың жасырын әулиелері. Олар сопыға жол көрсетіп, рухани дем береді. Бұл халық арасында кең тараған «Ғайып ерен қырық шілтен жәрдем берсін» деген тілекпен үндес.',
+    subShiltenText:'Алланың жасырын достары. Олар адамға жол көрсетіп, рухани дем береді. Бұл халық арасында кең тараған «Ғайып ерен қырық шілтен жәрдем берсін» деген тілекпен үндес.',
     figCap:'Ғайып Ерен Қырық Шілтен киелі орнындағы көрініс',
     eyebrow2:'Құран', title2:'Құранда ғайып жайлы бірнеше жерде айтылған',
     points:[
@@ -240,7 +240,7 @@ T.kk = {
         {t:'h3',v:'Қазақша діни кітаптарда'},
         {t:'p',v:'Кейінгі аударма әдебиеттерде мынадай түсінік беріледі: ғайып — Аллаға тән; ғайыпқа иман — иман шарттарының бірі; «Ғайып ерен, қырық шілтен» сияқты ұғымдар халық сенімі ретінде айтылады, бірақ шариғат ғалымдары олардың шынайы мағынасын тек Аллаға қалдырған.'},
         {t:'h3',v:'Атаудың мағынасы'},
-        {t:'ul',v:['<b>Ғайып</b> — көзге көрінбейтін, жасырын.','<b>Ерен</b> — үлкен.','<b>Қырық шілтен</b> — Алланың жасырын әулиелері. Олар сопыға жол көрсетіп, рухани дем береді.']},
+        {t:'ul',v:['<b>Ғайып</b> — көзге көрінбейтін, жасырын.','<b>Ерен</b> — үлкен.','<b>Қырық шілтен</b> — Алланың жасырын достары. Олар адамға жол көрсетіп, рухани дем береді.']},
         {t:'p',v:'Яғни, «Ғайып ерен, қырық шілтен» — Алланың ерекше сүйген құлдары, көзге көрінбейтін рухани жәрдемшілер деген сенім. Бұл бір адам емес, жиынтық есім: қырық рухани қорғаушы, пір. Бұл тіркес сопылық дәстүрдегі рухани иерархияны бейнелейді.'},
         {t:'poem',v:'«Ғайып-Ерен, қырық шілтен, назарыңды салғайсың!\nСапарда болса бір кілтің, ғарипқа жәрдем болғайсың.»',src:'Бата сөзінен'}
       ]},
@@ -396,7 +396,7 @@ T.ru = {
     subErenTitle:'Значение слова «Ерен»',
     subErenText:'Великий — понятие о человеке, оказавшем особую службу народу и обладающем высокой духовной степенью.',
     subShiltenTitle:'Значение слова «Кырык Шилтен»',
-    subShiltenText:'Сокрытые святые Аллаха. Они указывают путь суфию и дают духовную поддержку. Это созвучно широко распространённому в народе пожеланию: «Да поможет Гайып ерен кырык шилтен».',
+    subShiltenText:'Сокрытые друзья Аллаха. Они указывают человеку путь и дают духовную поддержку. Это созвучно широко распространённому в народе пожеланию: «Да поможет Гайып ерен кырык шилтен».',
     figCap:'Вид у священного места Ғайып Ерен Қырық Шілтен',
     eyebrow2:'Коран', title2:'В Коране о сокрытом говорится в нескольких местах',
     points:[
@@ -508,7 +508,7 @@ T.ru = {
         {t:'h3',v:'В казахских религиозных книгах'},
         {t:'p',v:'В поздней переводной литературе даётся такое понимание: сокрытое принадлежит Аллаху; вера в сокрытое — одно из условий веры; понятия вроде «Ғайып ерен, қырық шілтен» приводятся как народная вера, но учёные шариата оставили их истинный смысл Аллаху.'},
         {t:'h3',v:'Значение названия'},
-        {t:'ul',v:['<b>Гайып</b> — невидимое, сокрытое.','<b>Ерен</b> — великий.','<b>Кырык шилтен</b> — сокрытые святые Аллаха. Они указывают путь суфию и дают духовную поддержку.']},
+        {t:'ul',v:['<b>Гайып</b> — невидимое, сокрытое.','<b>Ерен</b> — великий.','<b>Кырык шилтен</b> — сокрытые друзья Аллаха. Они указывают человеку путь и дают духовную поддержку.']},
         {t:'p',v:'То есть «Ғайып ерен, қырық шілтен» — вера в особо любимых Аллахом рабов, невидимых духовных помощников. Это не один человек, а собирательное имя: сорок духовных покровителей, пиров. Выражение отражает духовную иерархию суфийской традиции.'},
         {t:'poem',v:'«Ғайып-Ерен, қырық шілтен, назарыңды салғайсың!\nСапарда болса бір кілтің, ғарипқа жәрдем болғайсың.»',src:'Из слов благословения (бата)'}
       ]},
@@ -663,7 +663,7 @@ T.en = {
     subErenTitle:'The meaning of "Eren"',
     subErenText:'The great — a person of exceptional service to the people and of high spiritual rank.',
     subShiltenTitle:'The meaning of "Qyryq Shilten"',
-    subShiltenText:'The hidden saints of Allah. They guide the Sufi on the path and give spiritual strength. This echoes the widely known folk blessing: “May Gayip Eren Qyryq Shilten grant help.”',
+    subShiltenText:'The hidden friends of Allah. They guide a person on the path and give spiritual strength. This echoes the widely known folk blessing: “May Gayip Eren Qyryq Shilten grant help.”',
     figCap:'A view at the Ghayyp Eren Qyryq Shilten sacred site',
     eyebrow2:"Qur'an", title2:"The Qur'an speaks of the unseen in several places",
     points:[
@@ -775,7 +775,7 @@ T.en = {
         {t:'h3',v:'In Kazakh religious books'},
         {t:'p',v:'Later translated works give this understanding: the unseen belongs to Allah; belief in the unseen is one of the conditions of faith; notions such as "ghayyp eren, qyryq shilten" are recorded as folk belief, while scholars of sharia left their true meaning to Allah.'},
         {t:'h3',v:'The meaning of the name'},
-        {t:'ul',v:['<b>Ghayyp</b> — unseen, hidden.','<b>Eren</b> — the great.','<b>Qyryq shilten</b> — the hidden saints of Allah. They guide the Sufi and give spiritual strength.']},
+        {t:'ul',v:['<b>Ghayyp</b> — unseen, hidden.','<b>Eren</b> — the great.','<b>Qyryq shilten</b> — the hidden friends of Allah. They guide a person and give spiritual strength.']},
         {t:'p',v:'So "ghayyp eren, qyryq shilten" is the belief in servants especially beloved to Allah, unseen spiritual helpers. It is not one person but a collective name: forty spiritual patrons, pirs. The phrase mirrors the spiritual hierarchy of Sufi tradition.'},
         {t:'poem',v:'«Ғайып-Ерен, қырық шілтен, назарыңды салғайсың!\nСапарда болса бір кілтің, ғарипқа жәрдем болғайсың.»',src:'From words of blessing (bata)'}
       ]},
